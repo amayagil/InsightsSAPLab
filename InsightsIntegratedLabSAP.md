@@ -304,7 +304,41 @@ Upload completed successfully!
 ~~~~
 
 ## Exploring and Fixing SAP issues
+In this lab, we are going to explore the possibilites Red Hat Enterprise Linux along with the included Red Hat Insights capability is able to report and resolve SAP related issues that are afecting your RHEL based SAP infrastructure.
 
+If not there yet, you’d need to login to your client VM, first SSH into your workstation node at workstation-*GUID*.rhpds.opentlc.com as lab-user, the sudo to root. Should a password be required, use "**r3dh4t1!**" as your password. 
+
+~~~~
+[lab-user@localhost ~]$ ssh lab-user@workstation-GUID.rhpds.opentlc.com
+[lab-user@workstation-GUID ~]$ sudo -i
+~~~~
+
+ 
+### Fixing all the SAP related issues
+
+From the Satellite UI, click on Red Hat Insights → Overview, where you should see all your registered systems, actions summary (highlighted by priority) as well as latest updates from Red Hat. 
+
+![](images/image53.png)
+
+In order to identify the SAP related issues, best is to do it from the "Actions" view (as this is the one that groups by category, as well.)
+
+Click on Red Hat Insights → Actions, where you should see all your system's issues grouped by both category and severity as follows:
+
+![](images/image54.png)
+
+###STEPS:
+
+1. From your Satellite 6.4 UI, on the actions page, to to the right bottom box named SAP and click on the "View More" link.
+
+![](images/image55.png)
+
+2. Click on your client VM, which is ic6.example.com. You will see the list of issues affecting it when clicking on the system name.
+
+![](images/image59.png)
+
+3. Notice that your system shows up with multiple security vulnerabilities.
+
+Note: Our objective is to fix the payload injection problem without causing downtime *from the Satellite Web Interface*, and see that it no longer appears as a vulnerability in Insights / Satellite.
 
 ## Fixing the payload injection security issue in your system using Red Hat Insights from the Satellite UI
 
