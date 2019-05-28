@@ -376,7 +376,21 @@ Note: Sometimes the "Add to existing plan" option appears disabled. Please do al
 
 Repeat steps 10 to 13 until there are no more issues left.
 
-14. 
+14. When you are done, your plan should have 6 issues to resolve (as from the SAP issues list, only 6 provide an Ansible based solution, so those are the ones you should be adding).
+
+15. Now it's time to just solve all those issues. From the plan window, scroll down until you see the "Run Playbook" drop down. Click on the arrow to see all the options (Run Playbook, Customize Playbook Run and Download).
+
+![](images/image65.png)
+
+16. Click on the "Customize Playbook Run" to inspect the different options.
+
+![](images/image66.png)
+
+As you can see, the most interesting ones are the different run options. You can decide wether to run it now (similar to simply click on "Run Playbook" in the previous screen), schedule a run in a future in time (for instance while a maintenance window is happening) or schedule a recurrent run (in this case, more useful when it's not an insights fix, but any of the other job options). 
+Select "Execute now" and click on the submit button. 
+
+![](images/image66.png)
+
 
 ## Fixing the payload injection security issue in your system using Red Hat Insights from the Satellite UI
 
