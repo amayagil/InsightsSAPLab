@@ -332,13 +332,51 @@ Click on Red Hat Insights → Actions, where you should see all your system's is
 
 ![](images/image55.png)
 
-2. Click on your client VM, which is ic6.example.com. You will see the list of issues affecting it when clicking on the system name.
+2. You should see all the SAP related actions (with or without an ansible playbook solution offered).
 
-![](images/image59.png)
+![](images/image56.png)
 
-3. Notice that your system shows up with multiple security vulnerabilities.
+3. Notice that your system shows up with multiple SAP vulnerabilities.
 
-Note: Our objective is to fix the payload injection problem without causing downtime *from the Satellite Web Interface*, and see that it no longer appears as a vulnerability in Insights / Satellite.
+**Note:** Our objective is to fix the **ALL** the SAP related problems without causing downtime *from the Satellite Web Interface*, and see that it no longer appears as a vulnerability in Insights / Satellite.
+
+4. At this point, we need to create a plan that includes all the SAP related issues, but unfortunatelly, this is yet not possible to do at once, so we'd need to add every single problem to the same plan.
+
+5. Select the first issue that appears on the top of the list (it should be named "Database inconsistencies occur when uuidd is not running with SAP applications") and click on it. The issue details screen appears:
+
+![](images/image57.png)
+
+6. Click on the check box by the host name to select it. Notice the upper drop down named "Actions" activates.
+
+7. Click on the "Actions" drop down and select "Create new playbook"
+
+![](images/image58.png)
+
+8. Name your new playbook "sap" and click "Save"
+
+![](images/image60.png)
+
+9. The plan screen appears, and you can see the name of the plan (sap), the issues it solves ("Database inconsistencies occur when uuidd is not running with SAP applications") and the system affected (ic1.example.com).
+
+![](images/image61.png)
+
+10. Now, go back to "Actions" and select the second issue on the list of the SAP issues ("Database performance decreases when Transparent Huge Pages is enabled"). As before, the issue detail screen appears.
+
+11. Click on the check box by the host name to select it. Notice the upper drop down named "Actions" activates.
+
+12. Now, instead of creating a new plan, add this issue to an existing plan, by selecting its name (sap) from the drop down that appears.
+
+![](images/image62.png)
+
+13. Notice than the existing plan now has 2 issues to solve. 
+
+![](images/image63.png)
+
+Note: Sometimes the "Add to existing plan" option appears disabled. Please do allow some time to refresh if that happens.
+
+Repeat steps 10 to 13 until there are no more issues left.
+
+14. 
 
 ## Fixing the payload injection security issue in your system using Red Hat Insights from the Satellite UI
 
