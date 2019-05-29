@@ -391,6 +391,13 @@ Select "Execute now" and click on the submit button.
 
 ![](images/image66.png)
 
+17. The playbook execution screen appears and in it, you can see the progress of the exectution. When the execution has completed succesfully, you will see a green cirle stating "Success 100%"
+
+![](images/image71.png)
+
+In addition, you can see the playbook steps execution, by clicking on the name of the host, at the bottom of the screen:
+
+![](images/image72.png)
 
 ## Fixing the payload injection security issue in your system using Red Hat Insights from the Satellite UI
 
