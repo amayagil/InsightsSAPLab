@@ -8,9 +8,9 @@
 ![Amaya Rosa Gil Pippino](images/yo.png)
 
 ###Amaya Rosa Gil Pippino 
-#####EMEA SENIOR SOLUTIONS ARCHITECT RHCA LEVEL V
-#####INFRASTRUCTURE, AUTOMATION & CLOUD.
-####amaya@redhat.com 
+EMEA SENIOR SOLUTIONS ARCHITECT RHCA LEVEL V
+INFRASTRUCTURE, AUTOMATION & CLOUD.
+amaya@redhat.com 
 
 ###Lab schedule
 
