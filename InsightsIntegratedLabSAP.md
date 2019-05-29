@@ -100,12 +100,6 @@ When using SELinux make sure the directory and the files have correct labels of 
 [root@sat ~]# restorecon -RvF ~foreman-proxy/.ssh
 ~~~~
 
-If this is your case, please do:
-
-~~~~
-[root@sat ~]# cp ~foreman-proxy/.ssh/id_rsa_foreman_proxy* /var/lib/foreman-proxy/ssh/
-~~~~
-
 Don’t forget to restart Foreman, Smart Proxy and Foreman tasks so plugins are loaded:
 
 ~~~~
