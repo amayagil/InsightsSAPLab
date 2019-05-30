@@ -20,6 +20,6 @@
 
 | What | Where |
 |---|---|
-| The presentation to the Lab can be found | ((here)) |
-| To get your GUID and access the Lab, click | ((here)) |
-| The Lab Documentation is localted here | https://github.com/amayagil/InsightsSAPLab/blob/master/InsightsIntegratedLabSAP.md |
+| The presentation to the Lab can be found | [here](https://docs.google.com/presentation/d/1li9Ig3ql7EXsRtsNa9KR3RGAs29XZjQ6AcdaRhiN-vs/edit?usp=sharing) |
+| To get your GUID and access the Lab, click | (here) |
+| The Lab Documentation is localted | [here](https://github.com/amayagil/InsightsSAPLab/blob/master/InsightsIntegratedLabSAP.md) |
