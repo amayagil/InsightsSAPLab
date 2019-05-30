@@ -7,12 +7,12 @@
 
 ![Amaya Rosa Gil Pippino](images/yo.png)
 
-### Amaya Rosa Gil Pippino 
-#### EMEA SENIOR SOLUTIONS ARCHITECT RHCA LEVEL V
-#### INFRASTRUCTURE, AUTOMATION & CLOUD.
-#### amaya@redhat.com 
+###Amaya Rosa Gil Pippino 
+#####EMEA SENIOR SOLUTIONS ARCHITECT RHCA LEVEL V
+#####INFRASTRUCTURE, AUTOMATION & CLOUD.
+####[amaya@redhat.com](amaya@redhat.com) 
 
-### Lab schedule
+###Lab schedule
 
 * Thrusday, 15:00, Lab Room 4
 * Thrusday, 16:30, Lab Room 4
