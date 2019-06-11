@@ -5,7 +5,7 @@
 ### You can run your SAP workloads safely thanks to the inteligence Insights brings into Red Hat Enterprise Linux, being able to identify and solve issues before your infrastructure is even impacted.
 
 
-![Amaya Rosa Gil Pippino](images/yo.png)
+![Amaya Rosa Gil Pippino](images/yo_roma5.png)
 
 ###Amaya Rosa Gil Pippino 
 #####EMEA SENIOR SOLUTIONS ARCHITECT RHCA LEVEL V
