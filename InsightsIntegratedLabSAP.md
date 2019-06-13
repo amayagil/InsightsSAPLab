@@ -152,13 +152,13 @@ The remote hosts need to be configured to accept the private key that the smart 
 The ssh keys for the smart proxies are available as a host parameter  (`remote_execution_ssh_keys`). This allows you to manage the authorized keys with your configuration management platform of choice, or through a provisioning template.
 
 ~~~~
-[root@sat ~]# ssh-copy-id -i /var/lib/foreman-proxy/ssh/id_rsa_foreman_proxy.pub root@icX.example.com
+[root@sat ~]# ssh-copy-id -f -i /var/lib/foreman-proxy/ssh/id_rsa_foreman_proxy.pub root@icX.example.com
 ~~~~
 
 **NOTE:** This step has to be repeated for all the icX client machines.
 
 ~~~~
-[root@sat ~]# for i in `seq 1 9` ; do ssh-copy-id -i /var/lib/foreman-proxy/ssh/id_rsa_foreman_proxy.pub root@ic$i.example.com ; done
+[root@sat ~]# for i in `seq 1 9` ; do ssh-copy-id -f -i /var/lib/foreman-proxy/ssh/id_rsa_foreman_proxy.pub root@ic$i.example.com ; done
 ~~~~
 
 # Lab 2: Proactive Security and Automated Risk Management with Red Hat Insights
