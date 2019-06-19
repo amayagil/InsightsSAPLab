@@ -762,7 +762,7 @@ Your screen should look as follows:
 
 ![](images/image33.png)
 
-Click the ![launch](images/image71.png) icon to launch the scan job template, the output you should see is something like this, if it all went as expected:
+Click the ![launch](images/rocket.png) icon to launch the scan job template, the output you should see is something like this, if it all went as expected:
 
 ![](images/image24.png)
 
